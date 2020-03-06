@@ -1,0 +1,135 @@
+body {
+  background: #white;
+}
+
+.box1 {
+  background: lightcoral;
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  animation-name: myanimation1;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.box2 {
+  background: lightblue;
+  width: 100px;
+  height: 100px;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  animation-name: myanimation2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.box3 {
+  background: lightgreen;
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  animation-name: myanimation3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.box4 {
+  background: lightgoldenrodyellow;
+  width: 100px;
+  height: 100px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  animation-name: myanimation4;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes myanimation1 {
+  0% {
+    left: 0%;
+    top: 0%;
+  }
+  100% {
+    left: 50%;
+    top: 25%;
+    background-color: black;
+    border-radius: 0 0 100% 0;
+  }
+}
+
+@keyframes myanimation2 {
+  0% {
+    right: 0%;
+    top: 0%;
+  }
+  100% {
+    right: 50%;
+    top: 25%;
+    background-color: black;
+    border-radius: 0 0 0 100%;
+  }
+}
+
+@keyframes myanimation3 {
+  0% {
+    left: 0%;
+    bottom: 0%;
+  }
+  100% {
+    left: 50%;
+    bottom: 75%;
+    background-color: black;
+    border-radius: 0 100% 0 0;
+  }
+}
+
+@keyframes myanimation4 {
+  0% {
+    right: 0%;
+    bottom: 0%;
+  }
+  100% {
+    right: 50%;
+    bottom: 75%;
+    background-color: black;
+    border-radius: 100% 0 0 0;
+  }
+}
+
+.box1:hover {
+  border: 3px solid white;
+}
+
+.box2:hover {
+  border: 3px solid white;
+}
+
+.box3:hover {
+  border: 3px solid white;
+}
+
+.box4:hover {
+  border: 3px solid white;
+}
