@@ -1,7 +1,3 @@
-body {
-  background: #white;
-}
-
 .box1 {
   background: lightcoral;
   width: 100px;
@@ -10,10 +6,8 @@ body {
   top: 0px;
   position: absolute;
   animation-name: myanimation1;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
-  /* animation-delay: 2s; */
-  /* animation-direction: alternate; */
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
@@ -26,10 +20,8 @@ body {
   top: 0px;
   position: absolute;
   animation-name: myanimation2;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
-  /* animation-delay: 2s; */
-  /* animation-direction: alternate; */
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
@@ -42,10 +34,8 @@ body {
   bottom: 0px;
   position: absolute;
   animation-name: myanimation3;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
-  /* animation-delay: 2s; */
-  /* animation-direction: alternate; */
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
@@ -58,10 +48,8 @@ body {
   bottom: 0px;
   position: absolute;
   animation-name: myanimation4;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
-  /* animation-delay: 2s; */
-  /* animation-direction: alternate; */
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
